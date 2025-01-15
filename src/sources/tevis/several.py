@@ -92,6 +92,12 @@ class LkOrtenau(TevisBaseScraper):
     BASE_URL = "https://www.termine.lraog.de"
 
 
+class Luebeck(TevisBaseScraper):
+    ID = "luebeck"
+    NAME = "Stadt Lübeck"
+    BASE_URL = "https://hltermin-bs.luebeck.de"
+
+
 class LraDachau(TevisBaseScraper):
     ID = "dachau"
     NAME = "Landratsamt Dachau"
